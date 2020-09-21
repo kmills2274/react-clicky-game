@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Special+Elite&display=swap');
+
+.navbar {
+    padding: 0;
+    background: rgba(0, 0, 0, 0.911);
+    min-height: 70px;
+    position: fixed;
+    width: 100%;
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    color: black;
+    font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+    z-index: 99;
+    white-space: nowrap;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 26px 200px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Special Elite', cursive;
+    font-weight: 1000;
+}
+
+.navbar-brand {
+  padding-left: 10%  
+}
+
+.navbar-brand.score {
+    padding-left: 10%; 
+    color: rgb(255, 71, 71);
+  }
