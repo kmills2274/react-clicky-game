@@ -6,7 +6,7 @@ import '../Cards/Cards';
 const CardsDisplay = (props) => (
 
             <div>{props.cardsArr.map(card=>(
-              <img onClick={() => props.shuffleImages(card.id)} src={require(`./Images/${card.img}`)} alt="CityImage"/>
+              <img key={card.id} onClick={() =>  props.shuffleImages(card.id)} src={require(`./Images/${card.img}`)} alt="CityImage"/>
                 ))} 
             </div>
     
