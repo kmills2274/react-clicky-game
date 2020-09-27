@@ -1,9 +1,9 @@
 {
+  "homepage": "https://kmills2274.github.io/react-clicky-game/public/",
   "name": "react-clicky-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^3.1.0",
     "mdbreact": "^4.27.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.3.0",
@@ -36,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
